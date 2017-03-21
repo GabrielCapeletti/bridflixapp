@@ -1,25 +1,20 @@
+
 //
 //  ViewController.swift
 //  bridflix
 //
-//  Created by Gabriel on 15/03/17.
+//  Created by Gabriel on 20/03/17.
 //  Copyright © 2017 bridge. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+public class ViewController<VIEW:UIViewController> {
+    
+    let view : VIEW
+    
+    init(view _view:VIEW) {
+        self.view = _view
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
-

@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C03F38CE1E801F6B002A8CA6 /* ValuedField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03F38CD1E801F6B002A8CA6 /* ValuedField.swift */; };
+		C03F38D31E8026EC002A8CA6 /* AlertNotifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03F38D21E8026EC002A8CA6 /* AlertNotifierView.swift */; };
+		C03F38D51E802738002A8CA6 /* AlertNotifierViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03F38D41E802738002A8CA6 /* AlertNotifierViewExtension.swift */; };
+		C03F38D71E8029C5002A8CA6 /* MovieTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03F38D61E8029C5002A8CA6 /* MovieTableController.swift */; };
+		C03F38D91E8029F5002A8CA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03F38D81E8029F5002A8CA6 /* ViewController.swift */; };
+		C03F38DB1E807C62002A8CA6 /* MovieItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03F38DA1E807C62002A8CA6 /* MovieItem.swift */; };
+		C03F38E01E819550002A8CA6 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03F38DF1E819550002A8CA6 /* Role.swift */; };
+		C03F38E21E81958F002A8CA6 /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03F38E11E81958F002A8CA6 /* Actor.swift */; };
+		C07A5FBA1E7B43CC003AFEB5 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A5FB91E7B43CC003AFEB5 /* LoginController.swift */; };
+		C07A5FBE1E7B5880003AFEB5 /* ServerConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A5FBD1E7B5880003AFEB5 /* ServerConnectionManager.swift */; };
+		C07A5FC01E7B5B3F003AFEB5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A5FBF1E7B5B3F003AFEB5 /* User.swift */; };
+		C07A5FC31E7B5DB6003AFEB5 /* ServerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A5FC21E7B5DB6003AFEB5 /* ServerError.swift */; };
+		C092FC5F1E7C930E0004C634 /* MovieTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C092FC5E1E7C930E0004C634 /* MovieTableCell.swift */; };
+		C092FC611E7C9CD50004C634 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C092FC601E7C9CD50004C634 /* MovieTableViewController.swift */; };
 		C0CCC2BA1E7A048D006B85AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CCC2B91E7A048D006B85AE /* AppDelegate.swift */; };
-		C0CCC2BC1E7A048D006B85AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CCC2BB1E7A048D006B85AE /* ViewController.swift */; };
+		C0CCC2BC1E7A048D006B85AE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CCC2BB1E7A048D006B85AE /* LoginViewController.swift */; };
 		C0CCC2BF1E7A048D006B85AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CCC2BD1E7A048D006B85AE /* Main.storyboard */; };
 		C0CCC2C11E7A048D006B85AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CCC2C01E7A048D006B85AE /* Assets.xcassets */; };
 		C0CCC2C41E7A048D006B85AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CCC2C21E7A048D006B85AE /* LaunchScreen.storyboard */; };
+		C0E6D1CC1E7C67480031473E /* LoginDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E6D1CB1E7C67480031473E /* LoginDTO.swift */; };
+		C9ECD88D5F7E8940AEF500CF /* Pods_bridflix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3786244D3960FFCF9ABAFB6 /* Pods_bridflix.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		395BD8E83BB1C998762D0D5E /* Pods-bridflix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bridflix.release.xcconfig"; path = "Pods/Target Support Files/Pods-bridflix/Pods-bridflix.release.xcconfig"; sourceTree = "<group>"; };
+		BC87C6FCFF03D7AB89F0E118 /* Pods-bridflix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bridflix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bridflix/Pods-bridflix.debug.xcconfig"; sourceTree = "<group>"; };
+		C03F38CD1E801F6B002A8CA6 /* ValuedField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValuedField.swift; sourceTree = "<group>"; };
+		C03F38D21E8026EC002A8CA6 /* AlertNotifierView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertNotifierView.swift; sourceTree = "<group>"; };
+		C03F38D41E802738002A8CA6 /* AlertNotifierViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertNotifierViewExtension.swift; sourceTree = "<group>"; };
+		C03F38D61E8029C5002A8CA6 /* MovieTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableController.swift; sourceTree = "<group>"; };
+		C03F38D81E8029F5002A8CA6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C03F38DA1E807C62002A8CA6 /* MovieItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieItem.swift; sourceTree = "<group>"; };
+		C03F38DF1E819550002A8CA6 /* Role.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
+		C03F38E11E81958F002A8CA6 /* Actor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
+		C07A5FB91E7B43CC003AFEB5 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		C07A5FBD1E7B5880003AFEB5 /* ServerConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerConnectionManager.swift; sourceTree = "<group>"; };
+		C07A5FBF1E7B5B3F003AFEB5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C07A5FC21E7B5DB6003AFEB5 /* ServerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerError.swift; sourceTree = "<group>"; };
+		C092FC5E1E7C930E0004C634 /* MovieTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableCell.swift; sourceTree = "<group>"; };
+		C092FC601E7C9CD50004C634 /* MovieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
 		C0CCC2B61E7A048D006B85AE /* bridflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bridflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0CCC2B91E7A048D006B85AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0CCC2BB1E7A048D006B85AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0CCC2BB1E7A048D006B85AE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C0CCC2BE1E7A048D006B85AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0CCC2C01E7A048D006B85AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0CCC2C31E7A048D006B85AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0CCC2C51E7A048D006B85AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E6D1CB1E7C67480031473E /* LoginDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginDTO.swift; path = ../../../.Trash/LoginDTO.swift; sourceTree = "<group>"; };
+		E3786244D3960FFCF9ABAFB6 /* Pods_bridflix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bridflix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,107 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9ECD88D5F7E8940AEF500CF /* Pods_bridflix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0869FE735B992B3A57A7EC88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3786244D3960FFCF9ABAFB6 /* Pods_bridflix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		678FEB0A78BF39D46777BEE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC87C6FCFF03D7AB89F0E118 /* Pods-bridflix.debug.xcconfig */,
+				395BD8E83BB1C998762D0D5E /* Pods-bridflix.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C03F38CF1E8023C3002A8CA6 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				C0E6D1CB1E7C67480031473E /* LoginDTO.swift */,
+				C0CCC2BB1E7A048D006B85AE /* LoginViewController.swift */,
+				C0CCC2BD1E7A048D006B85AE /* Main.storyboard */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		C07A5FB51E7B4248003AFEB5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C07A5FBD1E7B5880003AFEB5 /* ServerConnectionManager.swift */,
+				C07A5FBF1E7B5B3F003AFEB5 /* User.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		C07A5FB61E7B4262003AFEB5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C03F38CF1E8023C3002A8CA6 /* login */,
+				C092FC591E7C91F60004C634 /* movieList */,
+				C0CCC2C21E7A048D006B85AE /* LaunchScreen.storyboard */,
+				C03F38CD1E801F6B002A8CA6 /* ValuedField.swift */,
+				C03F38D21E8026EC002A8CA6 /* AlertNotifierView.swift */,
+				C03F38D41E802738002A8CA6 /* AlertNotifierViewExtension.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		C07A5FB71E7B4275003AFEB5 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0CCC2C01E7A048D006B85AE /* Assets.xcassets */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		C07A5FB81E7B4308003AFEB5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C07A5FB91E7B43CC003AFEB5 /* LoginController.swift */,
+				C03F38D61E8029C5002A8CA6 /* MovieTableController.swift */,
+				C03F38D81E8029F5002A8CA6 /* ViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		C07A5FC11E7B5D9E003AFEB5 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				C07A5FC21E7B5DB6003AFEB5 /* ServerError.swift */,
+				C03F38DA1E807C62002A8CA6 /* MovieItem.swift */,
+				C03F38DF1E819550002A8CA6 /* Role.swift */,
+				C03F38E11E81958F002A8CA6 /* Actor.swift */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		C092FC591E7C91F60004C634 /* movieList */ = {
+			isa = PBXGroup;
+			children = (
+				C092FC5E1E7C930E0004C634 /* MovieTableCell.swift */,
+				C092FC601E7C9CD50004C634 /* MovieTableViewController.swift */,
+			);
+			name = movieList;
+			sourceTree = "<group>";
+		};
 		C0CCC2AD1E7A048D006B85AE = {
 			isa = PBXGroup;
 			children = (
 				C0CCC2B81E7A048D006B85AE /* bridflix */,
 				C0CCC2B71E7A048D006B85AE /* Products */,
+				678FEB0A78BF39D46777BEE2 /* Pods */,
+				0869FE735B992B3A57A7EC88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,11 +178,12 @@
 		C0CCC2B81E7A048D006B85AE /* bridflix */ = {
 			isa = PBXGroup;
 			children = (
+				C07A5FC11E7B5D9E003AFEB5 /* common */,
+				C07A5FB81E7B4308003AFEB5 /* controller */,
+				C07A5FB51E7B4248003AFEB5 /* model */,
+				C07A5FB61E7B4262003AFEB5 /* view */,
+				C07A5FB71E7B4275003AFEB5 /* resources */,
 				C0CCC2B91E7A048D006B85AE /* AppDelegate.swift */,
-				C0CCC2BB1E7A048D006B85AE /* ViewController.swift */,
-				C0CCC2BD1E7A048D006B85AE /* Main.storyboard */,
-				C0CCC2C01E7A048D006B85AE /* Assets.xcassets */,
-				C0CCC2C21E7A048D006B85AE /* LaunchScreen.storyboard */,
 				C0CCC2C51E7A048D006B85AE /* Info.plist */,
 			);
 			path = bridflix;
@@ -71,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0CCC2C81E7A048D006B85AE /* Build configuration list for PBXNativeTarget "bridflix" */;
 			buildPhases = (
+				8E6A29708BF20E5A9E89787D /* [CP] Check Pods Manifest.lock */,
 				C0CCC2B21E7A048D006B85AE /* Sources */,
 				C0CCC2B31E7A048D006B85AE /* Frameworks */,
 				C0CCC2B41E7A048D006B85AE /* Resources */,
+				9C4440506519A41A3958296C /* [CP] Embed Pods Frameworks */,
+				880AF6283D0CDA3015B6D86E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +259,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		880AF6283D0CDA3015B6D86E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bridflix/Pods-bridflix-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E6A29708BF20E5A9E89787D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C4440506519A41A3958296C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bridflix/Pods-bridflix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C0CCC2B21E7A048D006B85AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0CCC2BC1E7A048D006B85AE /* ViewController.swift in Sources */,
+				C03F38D91E8029F5002A8CA6 /* ViewController.swift in Sources */,
+				C0CCC2BC1E7A048D006B85AE /* LoginViewController.swift in Sources */,
+				C07A5FC01E7B5B3F003AFEB5 /* User.swift in Sources */,
+				C07A5FBA1E7B43CC003AFEB5 /* LoginController.swift in Sources */,
+				C03F38CE1E801F6B002A8CA6 /* ValuedField.swift in Sources */,
+				C03F38E21E81958F002A8CA6 /* Actor.swift in Sources */,
+				C07A5FBE1E7B5880003AFEB5 /* ServerConnectionManager.swift in Sources */,
+				C092FC5F1E7C930E0004C634 /* MovieTableCell.swift in Sources */,
+				C03F38E01E819550002A8CA6 /* Role.swift in Sources */,
+				C092FC611E7C9CD50004C634 /* MovieTableViewController.swift in Sources */,
+				C03F38DB1E807C62002A8CA6 /* MovieItem.swift in Sources */,
+				C03F38D51E802738002A8CA6 /* AlertNotifierViewExtension.swift in Sources */,
 				C0CCC2BA1E7A048D006B85AE /* AppDelegate.swift in Sources */,
+				C03F38D31E8026EC002A8CA6 /* AlertNotifierView.swift in Sources */,
+				C0E6D1CC1E7C67480031473E /* LoginDTO.swift in Sources */,
+				C07A5FC31E7B5DB6003AFEB5 /* ServerError.swift in Sources */,
+				C03F38D71E8029C5002A8CA6 /* MovieTableController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +449,7 @@
 		};
 		C0CCC2C91E7A048D006B85AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC87C6FCFF03D7AB89F0E118 /* Pods-bridflix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = bridflix/Info.plist;
@@ -270,6 +462,7 @@
 		};
 		C0CCC2CA1E7A048D006B85AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395BD8E83BB1C998762D0D5E /* Pods-bridflix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = bridflix/Info.plist;
@@ -299,6 +492,7 @@
 				C0CCC2CA1E7A048D006B85AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
